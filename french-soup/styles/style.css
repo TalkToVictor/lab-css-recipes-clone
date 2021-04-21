@@ -1,0 +1,41 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px
+}
+
+header img {
+  width: 100%;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: beige;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transition: all 1s;
+}
+
+h1:hover {
+  font-size: 90px;
+}
+
+section {
+  padding: 75px;
+}
+
+.about {
+  border: 1px solid yellow;
+  margin: auto;
+  display: block;
+}
